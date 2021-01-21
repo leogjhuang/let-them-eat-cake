@@ -468,7 +468,7 @@ int main() {
                         cout << "Mill\t\t\t(enter 1 to buy mill)" << endl;
                         cout << "\t- requires 5 wood -" << endl << endl;
                     }
-                    else if(mill == true) {
+                    else if(mill) {
                         cout << "Mill" << endl;
                         cout << "\t - purchased -" << endl << endl;
                     }
@@ -481,7 +481,7 @@ int main() {
                         cout << "Axe\t\t\t(enter 2 to buy axe)" << endl;
                         cout << "\t- requires 10 wood -" << endl << endl;
                     }
-                    else if(axe == true) {
+                    else if(axe) {
                         cout << "Axe" << endl;
                         cout << "\t - purchased -" << endl << endl;
                     }
@@ -491,7 +491,7 @@ int main() {
                         cout << "Sickle\t\t\t(enter 3 to buy sickle)" << endl;
                         cout << "\t- requires 5 stone and 15 wood -" << endl << endl;
                     }
-                    else if(sickle == true) {
+                    else if(sickle) {
                         cout << "Sickle" << endl;
                         cout << "\t - purchased -" << endl << endl;
                     }
@@ -501,7 +501,7 @@ int main() {
                         cout << "Pickaxe\t\t\t(enter 4 to buy pickaxe)" << endl;
                         cout << "\t- requires 10 stone and 20 wood -" << endl << endl;
                     }
-                    else if(pickaxe == true) {
+                    else if(pickaxe) {
                         cout << "Pickaxe" << endl;
                         cout << "\t - purchased -" << endl << endl;
                     }
@@ -511,7 +511,7 @@ int main() {
                         cout << "Fishing rod\t\t(enter 5 to buy fishing rod)" << endl;
                         cout << "\t- requires 5 iron and 20 wood -" << endl << endl;
                     }
-                    else if(fishingRod == true) {
+                    else if(fishingRod) {
                         cout << "Fishing rod" << endl;
                         cout << "\t - purchased -" << endl << endl;
                     }
@@ -521,7 +521,7 @@ int main() {
                         cout << "Furnace\t\t\t(enter 6 to buy furnace)" << endl;
                         cout << "\t- requires 10 iron and 20 stone -" << endl << endl;
                     }
-                    else if(furnace == true) {
+                    else if(furnace) {
                         cout << "Furnace" << endl;
                         cout << "\t - purchased -" << endl << endl;
                     }
@@ -633,7 +633,7 @@ int main() {
                     }
                     case 8: {
                         if(choice == 8) {
-                            if(furnace == true) {
+                            if(furnace) {
                                 if(cookedFish > 0 && energy < energyMax) {
                                     cookedFish--;
                                     energy += 10;
@@ -672,7 +672,7 @@ int main() {
                     }
                     case 7: {
                         if(choice == 7) {
-                            if(fishingRod == true) {
+                            if(fishingRod) {
                                 rawFish++;
                                 energy -= 2;
                             }
@@ -688,7 +688,7 @@ int main() {
                     }
                     case 6: {
                         if(choice == 6) {
-                            if(pickaxe == true) {
+                            if(pickaxe) {
                                 iron++;
                                 energy -= 4;
                             }
@@ -716,7 +716,7 @@ int main() {
                     }
                     case 3: {
                         if(choice == 3) {
-                            if(mill == true) {
+                            if(mill) {
                                 if(bread == 0 && wheat > 2) {
                                     bread++;
                                     wheat -= 3;
@@ -739,7 +739,7 @@ int main() {
                     case 2: {
                         if(choice == 2) {
                             energy--;
-                            if(sickle == true) {
+                            if(sickle) {
                                 wheat += 2;
                             }
                             else {
@@ -750,7 +750,7 @@ int main() {
                     case 1: {
                         if(choice == 1) {
                             energy--;
-                            if(axe == true) {
+                            if(axe) {
                                 wood += 3;
                             }
                             else {
