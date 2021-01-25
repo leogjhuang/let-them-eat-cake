@@ -1,1 +1,4 @@
-# let-them-eat-cake
+# Let Them Eat Cake
+
+## Description and end product
+The proposed tycoon game for this final project is titled LET THEM EAT CAKE. The purpose of this coding project is to have produced a design which will give players a fun opportunity and a reason to play again. This adventure revolves around the idea of gathering resources to an extent which allows you to both survive and leave the game with a slice of cake. Admittedly, this game is centered around the life of a French peasant during the 17th century, although not explicitly mentioned. The title is a reference to the infamous quote, supposedly said by Queen Marie Antoinette in a time of widespread bread shortages and revolution. At the beginning of the game, the player is mostly unaware of the game’s function, with the importance of energy being the sole thing revealed. The player is instructed that they have an energy bar, and a main goal is to not let their energy drop to 0.
