@@ -6,7 +6,6 @@ using namespace std;
 
 //delayed introduction
 int intro() {
-    cout << "Leo Huang - CSE1910" << endl << endl;
 
     //delay mechanism
     int delay = 8000;
