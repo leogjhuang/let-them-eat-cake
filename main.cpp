@@ -5,7 +5,7 @@
 using namespace std;
 
 //delayed introduction
-int intro() {
+void intro() {
 
     //delay mechanism
     int delay = 8000;
@@ -83,8 +83,6 @@ int intro() {
     cout << "Enter any value to continue..." << endl << endl;
     string pause = "";
     cin >> pause;
-
-    return 0;
 }
 
 //error trapping for int variables
