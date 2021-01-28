@@ -6,7 +6,6 @@ using namespace std;
 
 //delayed introduction
 void intro() {
-
     //delay mechanism
     int delay = 8000;
     int referenceTime = clock() + delay;
@@ -86,7 +85,7 @@ void intro() {
 }
 
 //error trapping for int variables
-int errorTrap() {
+void errorTrap() {
     //alternative for system("cls")
     for(int newLine = 0; newLine < 20; newLine++) {
         cout << endl;
@@ -98,8 +97,6 @@ int errorTrap() {
         string rid;
         cin >> rid;
     }
-
-    return 0;
 }
 
 int main() {
